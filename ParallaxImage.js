@@ -91,7 +91,7 @@ var ParallaxImage = React.createClass({
             inputRange:   [offset - height, offset + WINDOW_HEIGHT + height],
             outputRange:  [-parallaxPadding, parallaxPadding]
           }),
-          extrapolate:  'clamp',
+          // extrapolate:  'clamp',
         },
       ];
     } else {
